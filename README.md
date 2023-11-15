@@ -15,13 +15,13 @@
 ## base code -1
 
 - **情感分析範例：**
-  - [sentiment_analysis_using_TFBertForSequenceClassification.py](sentiment_analysis_using_TFBertForSequenceClassification.py) 
+  - [sentiment_analysis_using_TFBertForSequenceClassification.py](example/sentiment_analysis_using_TFBertForSequenceClassification.py)
   - 使用TFBertForSequenceClassification進行SST-2影評文本集的分類工作。
 
 ## base code -2
 
 - **更改TFBertForSequenceClassification內訓練其分類器的輸入向量：**
-  - [更改TFBertForSequenceClassification內訓練其分類器的輸入向量.py](更改TFBertForSequenceClassification內訓練其分類器的輸入向量.py) 
+  - [更改TFBertForSequenceClassification內訓練其分類器的輸入向量.py](example/更改TFBertForSequenceClassification內訓練其分類器的輸入向量.py) 
   - 提供了兩種調整特徵向量的方法：
     - a) 使用輸入樣本的所有輸出hidden_state vectors的平均作為特徵向量。
     - b) 使用輸入樣本的第2個輸出hidden_state vector作為特徵向量。
