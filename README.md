@@ -31,5 +31,10 @@
 使用TFBertModel，自行串接二元分類器，implement上述兩種特徵向量的調整：
 
 a) 使用輸入樣本的所有輸出hidden_state vectors的平均作為特徵向量。
+![(a)訓練集與驗證集之正確率](result/(a).PNG)
+
 
 b) 使用輸入樣本的第2個輸出hidden_state vector作為特徵向量。
+
+![(b)訓練集與驗證集之正確率](result/(b).PNG)
+
